@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Frasha Santo</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <i class="ri-code-s-slash-line"></i> Web Watchers 
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">About us</a>
+                    </li>
+                    <li>
+                        <a href="/register.html" class="nav__link">Register</a>
+                    </li>
+                    <li>
+                        <a href="/login.html" class="nav__link">login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section Below Navbar -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Report a Malicious Site</h1>
+            <p>Help us keep the internet safe! If you've come across a suspicious or malicious website, report it here to protect yourself and others from online threats</p>
+            <a href="#report-now" class="btn">Report now</a>
+        </div>
+    </div>
+
+
+    <div class="cyber-security-section">
+        <h2>What is Cyber Crime?</h2>
+        <p>Cybercrime is defined as a crime where a computer is the object of the crime or is used as a tool to commit
+            an offense. A cybercriminal may use a device to access a user’s personal information, confidential business
+            information, government information, or disable a device. It is also a cybercrime to sell or elicit the
+            above information online..</p>
+    </div>
+
+    <div class="section-title">
+        <h2> Types of Cyber Security Attacks</h2>
+    </div>
+
+    <!-- Card Section -->
+    <div class="card-container" >
+        <div class="card" onclick="redirectToDetails('/phishing.html')">
+            <img src="/images/phishing.jpg" alt="Card Image 1">
+            <div class="card-content">
+                <h2>Phishing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+        </div>
+        <div class="card" onclick="redirectToDetails('/eaves.html')">
+            <img src="/images/eaves Dropping.jpg" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Eaves Dropping</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+        </div>
+        <div class="card" onclick="redirectToDetails('/mtm.html')">
+            <img src="/images/mtm.png" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Man in the Middle attacks</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, suscipit officiis? Vitae autem
+                    adipisci </p>
+            </div>
+        </div>
+        <div class="card" onclick="redirectToDetails('/social.html')">
+            <img src="/images/socialEngineering.jpg" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Social Engineering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="logo.png" class="footer_logo">
+                <p class="footer_about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore harum
+                    molestias nesciunt,
+                    doloremque magni aspernatur iste blanditiis, fugiat quaerat accusamus ut, vero tempore.
+                    Fugiat, illum!
+                </p>
+            </div>
+            <div class="col">
+                <h3>Office <div class="bottom_line"><span></span></div>
+                </h3>
+                <p>Inter Miami</p>
+                <p>Santo</p>
+                <p>Ngong, Karen</p>
+                <p class="footer_email">frashasanto111@gmail.com</p>
+                <h4>+254793712942</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="bottom_line"><span></span></div>
+                </h3>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PRICING</a></li>
+                    <li><a href="">SERVICE</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="bottom_line"><span></span></div>
+                </h3>
+                <form>
+                    <ion-icon class="icon" name="mail"></ion-icon>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><ion-icon class="icon_right" name="arrow-round-forward"></ion-icon></button>
+                </form>
+                <div class="social_icons">
+                    <ion-icon class="social_icon" name="logo-facebook"></ion-icon>
+                    <ion-icon class="social_icon" name="logo-whatsapp"></ion-icon>
+                    <ion-icon class="social_icon" name="logo-twitter"></ion-icon>
+                    <ion-icon class="social_icon" name="logo-instagram"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">frasha Santo Tech Ⓒ 2023 - All Rights Reserved</p>
+    </footer>
+
+    
+
+    <!--=============== MAIN JS ===============-->
+    <script src="/js/main.js"></script>
+    <script> 
+     function redirectToDetails(detailsPage) {
+        window.location.href = detailsPage;
+    }
+    </script>
+</body>
+
+</html>

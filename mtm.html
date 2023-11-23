@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/card-style.css"> <!-- Include a separate stylesheet for card styling -->
+    <title>E - Web Watchers</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <i class="ri-code-s-slash-line"></i> Web Watchers
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link">About us</a>
+                    </li>
+                    <li>
+                        <a href="/register.html" class="nav__link">Register</a>
+                    </li>
+                    <li>
+                        <a href="/login.html" class="nav__link">login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="card-details">
+        <img src="/images/mtm.png" alt="Phishing Image">
+        <h2>Man in the middle Attack</h2>
+        <section>
+            <p>A Man-in-the-Middle (MitM) attack is a cybersecurity threat where an unauthorized third party intercepts and potentially alters the communication between two parties without their knowledge.</p>
+            <p>In a MitM attack, the attacker positions themselves between the communicating parties, allowing them to eavesdrop on or manipulate the data being exchanged.</p>
+            <p>This can occur through various means, such as exploiting vulnerabilities in network infrastructure or using techniques like ARP spoofing to redirect traffic through the attacker's system.</p>
+        </section>
+        <section>
+            <h2>Common Forms of MitM Attacks</h2>
+            <ul type="box">
+                <li>Wi-Fi Eavesdropping</li>
+                <li>Packet Sniffing</li>
+                <li>DNS Spoofing</li>
+                <li>SSL Stripping</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Protecting Against MitM Attacks</h2>
+            <p>To protect against Man-in-the-Middle attacks:</p>
+            <ul>
+                <li>Use secure communication channels.</li>
+                <li>Employ encryption, such as HTTPS.</li>
+                <li>Be cautious when connecting to public Wi-Fi networks.</li>
+                <li>Regularly update software.</li>
+                <li>Consider using VPNs (Virtual Private Networks).</li>
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.login-page{
+    max-width: 380px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+    
+
+}
+.search-page{
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+}
+.contact-page{
+    max-width: 390px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: white;
+}
+.signup-page{
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+
+}
+header{
+    font-size: 1.8rem;
+    font-weight: 650;
+    color: #232836;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+
+}
+form .field{
+    height: 45px;
+    width: 100%;
+    margin-top: 20px;
+
+
+}
+.field input, .field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #CACACA;
+}
+.field input:focus{
+   border-bottom-width: 3px;
+}
+.field button{
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+.field button:focus{
+    border-bottom: 5px solid #ffa;
+}
+.login-page .form-link, .signup-page .form-link{
+    text-align: center;
+    margin-top: 10px;
+   
+
+}
+.form-link span,
+.form-link a{
+    margin-top: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+
+}
+.form-link a{
+
+    color: #0171d3;
+    text-decoration: none;
+}
+.login-page a:hover, .contact-page a:hover, .signup-page a:hover{
+    text-decoration: underline;
+}
+
+.index-button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
